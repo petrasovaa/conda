@@ -1,13 +1,6 @@
 name: example-environment
 channels:
   - conda-forge
+  - landlab
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - landlab
